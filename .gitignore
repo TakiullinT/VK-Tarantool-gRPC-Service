@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Tarantool
+tarantool/*
+!tarantool/init.lua
+
+.DS_Store
+Thumbs.db
