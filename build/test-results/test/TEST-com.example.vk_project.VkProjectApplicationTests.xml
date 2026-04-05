@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.vk_project.VkProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-05T12:48:50.432Z" hostname="MacBook-Air-Macbook-3.local" time="6.71">
+  <properties/>
+  <testcase name="testRangeLargeDataset()" classname="com.example.vk_project.VkProjectApplicationTests" time="6.71"/>
+  <system-out><![CDATA[15:48:49.549 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.vk_project.VkProjectApplicationTests]: VkProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:48:49.608 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.vk_project.VkProjectApplication for test class com.example.vk_project.VkProjectApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::             (v4.1.0-M1)
+
+15:48:49.946 [Test worker] INFO  c.e.v.VkProjectApplicationTests - Starting VkProjectApplicationTests using Java 21.0.10 with PID 25311 (started by macbook in /Users/macbook/IdeaProjects/VK_Project)
+15:48:49.946 [Test worker] INFO  c.e.v.VkProjectApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:48:50.355 [Test worker] INFO  o.s.g.server.NettyGrpcServerFactory - Registered gRPC service: com.example.grpc.KVStoreService
+15:48:50.356 [Test worker] INFO  o.s.g.server.NettyGrpcServerFactory - Registered gRPC service: grpc.reflection.v1.ServerReflection
+15:48:50.356 [Test worker] INFO  o.s.g.server.NettyGrpcServerFactory - Registered gRPC service: grpc.health.v1.Health
+15:48:50.417 [Test worker] INFO  o.s.g.s.l.GrpcServerLifecycle - gRPC Server started, listening on address: [/[0:0:0:0:0:0:0:0]:9090]
+15:48:50.429 [Test worker] INFO  c.e.v.VkProjectApplicationTests - Started VkProjectApplicationTests in 0.608 seconds (process running for 1.705)
+15:48:51.143 [nioEventLoopGroup-3-1] INFO  i.t.d.c.c.AbstractTarantoolConnectionManager - Connected to Tarantool server at localhost/127.0.0.1:3301
+Received 10000 records...
+Received 20000 records...
+Received 30000 records...
+Received 40000 records...
+Received 50000 records...
+Received 60000 records...
+Received 70000 records...
+Received 80000 records...
+Received 90000 records...
+Received 100000 records...
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/macbook/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.18.4/7ef8cd821c4a69426fa7c99a6070b8b1b02e3abf/byte-buddy-agent-1.18.4.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
